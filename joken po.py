@@ -115,7 +115,7 @@ while op == '12':
     if jogador1 == 1 and computador == 2:
 
         contjog2 += 1
-        contjog1 = 0
+        contjog1 += 0
         print(f'{nome1} jogou pedra 🤛  e {nome2} jogou papel ✋, {nome2} ganhou')
     elif jogador1 == 1 and computador == 1:
 
