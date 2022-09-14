@@ -47,7 +47,7 @@ while op == '11':
     if jogador1 == 1 and jogador2 == 2:
 
         contjog2 += 1
-        contjog1 = 0
+        contjog1 += 0
         print(f'{nome1} jogou pedra 🤛  e {nome2} jogou papel ✋, {nome2} ganhou')
     elif jogador1 == 1 and jogador2 == 1:
 
@@ -77,7 +77,7 @@ while op == '11':
     elif jogador1 == 3 and jogador2 == 1:
 
         contjog2 += 1
-        contjog1 = 0
+        contjog1 += 0
         print(f'{nome1} jogou tesoura ✌ e {nome2} jogou pedra 🤛 , {nome2} ganhou')
     elif jogador1 == 3 and jogador2 == 2:
 
@@ -145,7 +145,7 @@ while op == '12':
     elif jogador1 == 3 and computador == 1:
 
         contjog2 += 1
-        contjog1 = 0
+        contjog1 += 0
         print(f'{nome1} jogou tesoura ✌ e {nome2} jogou pedra 🤛 , {nome2} ganhou')
     elif jogador1 == 3 and computador == 2:
 
@@ -180,7 +180,7 @@ while op == '13':
         nome1 = computador1
         nome2 = computador
         contjog2 += 1
-        contjog1 = 0
+        contjog1 += 0
         print(f'{nome1}  jogou pedra 🤛  e {nome2} jogou papel ✋, {nome2} ganhou')
     elif computador1 == 1 and computador == 1:
 
@@ -209,7 +209,7 @@ while op == '13':
         print(f'{nome1} jogou Papel ✋ e {nome2} jogou tesoura ✌, {nome2} ganhou')
     elif computador1 == 3 and computador == 1:
         contjog2 += 1
-        contjog1 = 0
+        contjog1 += 0
         print(f'{nome1} jogou tesoura e {nome2} jogou pedra 🤛 , {nome2} ganhou')
     elif computador1 == 3 and computador == 2:
         contjog2 += 0
